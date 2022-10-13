@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e5e5e5;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-header {
+  padding: 35px 0;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-img-blok {
+  display: inline-block;
+}
+.header-img {
+  width: 160px;
+  height: 41px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-item {
+  margin-right: 20px;
+}
+.header-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1f1534;
+  opacity: 0.5;
+}
+.header-link-1 {
+  font-weight: 700;
+  opacity: 1;
+  color: black;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.hero-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-bottom: 45px;
+}
+.hero-content {
+  width: 426px;
+}
+.hero-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color: #ffffff;
+  background: #458ff6;
+  border-radius: 55px;
+  padding: 0 41px;
+}
+.hero-blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service {
+  padding: 83px 0;
+}
+.service-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 26px;
+}
+.service-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7d7987;
+  width: 952px;
+  margin: o auto;
+  margin-bottom: 78px;
+}
+.service-line {
+  background-color: #000000;
+  border-radius: 5px;
+  height: 2px;
+  display: block;
+  width: 56px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+.service-item {
+  width: 350px;
+  height: 354px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 62px 52px 47px 36px;
+  margin-bottom: 37px;
+}
+.service-sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+.service-sub-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+}
+.service-photo-blok {
+  margin-bottom: 19px;
+}
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service-link {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  width: 200px;
+  display: block;
+  width: 106px;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  border-radius: 70px;
+  color: #458ff6;
+  text-align: center;
+}
+.our-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.our-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-bottom: 45px;
+}
+.our-content {
+  width: 426px;
+}
+.our-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color:  #458ff6;
+  background:#e5e5e5
+display: flex;
+align-items: center;
+display: inline;
+border: 1.4px solid #458FF6;
+border-radius: 55px;
+padding: 0 41px;
+
+
+}
+.our-blok {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.our-line{
+  background-color: #000000;
+  border-radius: 5px;
+  height: 2px;
+  display: block;
+  width: 56px;
+  margin-bottom: 33px;
+}
+.for-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  color:  #458ff6;
+  background:#e5e5e5
+display: flex;
+align-items: center;
+display: inline;
+border: 1.4px solid #458FF6;
+border-radius: 55px;
+padding: 0 41px;
+}
+.for-text {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7d7987;
+  margin-bottom: 45px;
+}
+.for-line{
+  background-color: #000000;
+  border-radius: 5px;
+  height: 2px;
+  display: block;
+  width: 56px;
+  margin-bottom: 33px;
+}
+.for-title{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.for-content{
+  width: 426px;
+  display: inline-block
+  
+}
+.for-img-blok{
+  display: inline-block;
+  margin-right: 135px;
+}
+.for-img{
+  display: inline-block;
+  display: flex;
+}
+.for{
+  margin-bottom: 229px;
+}
+
